@@ -1,6 +1,14 @@
 let toggle = document.querySelector(".toggle");
 let menu = document.querySelector(".menu");
 
+
+
+toggle.addEventListener("click", function() {
+  menu.classList.toggle("active");
+});
+
+
+
 window.addEventListener("resize", checkWidth);
 checkWidth();
 
@@ -11,7 +19,3 @@ function checkWidth() {
     toggle.style.display = "block";
   }
 }
-
-toggle.addEventListener("click", function() {
-  menu.classList.toggle("active");
-});

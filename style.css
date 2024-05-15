@@ -14,22 +14,33 @@
     font-size: 24px;
     margin: 14px;
 }
+
+/* varticle ga vachevi horizontal vasthai */
 .menu ul{
     display: flex;
 }
+
+/* dots remove avuthai */
 .menu li{
     list-style: none;
 }
+
+/* underline pothadhi */
 .menu li a{
     text-decoration: none;
     color: white;
     padding: 16px;
     display: block;
 }
+
+
 .menu li:hover{
     background-color: darkgrey;
     border-radius: 3px;
 }
+
+
+/* manaki idhi right side raavali kabatti  */
 .toggle{
     position: absolute;
     top: 16px;
@@ -37,6 +48,8 @@
     display: none;
     font-size: 20px;
 }
+
+
 @media (max-width:480px){
     .toggle {
         display: none;
@@ -52,7 +65,7 @@
     .menu ul{
         flex-direction: column;
         width: 100%;
-        background-color: rgb(8, 189, 8);
+        background-color: rgb(41, 74, 61);
     }
     .menu ul li{
         text-align: center;
@@ -64,26 +77,9 @@
         display: table;
         justify-items: center;
       }
-}
 
 
-
-
-
-.pic{
-    height: 350px;
-}
-p{
-    width: 550px;
-    color: blue;
-
-}
-h1{
-    background-color: brown;
-}
-
-@media screen and (max-width: 480px) {
-    p{
+      p{
         width: 100%;
         color: tomato;
         text-align: justify;
@@ -95,8 +91,24 @@ h1{
         width: 100%;
         height: 70%;
     }
-    
 }
+
+
+
+
+
+.pic{
+    height: 350px;
+}
+p{
+    width:100%;
+    color: blue;
+
+}
+h1{
+    background-color: brown;
+}
+
 
 @media screen and (min-width:481px) and (max-width: 768px) {
     p{
